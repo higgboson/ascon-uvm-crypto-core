@@ -1,6 +1,6 @@
 # The Ascon core in the RV32IM SoC
 
-Adds the core to [riscv-rv32im-soc](https://github.com/higgboson/riscv-rv32im-soc) as a
+Adds the core to [rv32im-soc-systolic-accelerator](https://github.com/higgboson/rv32im-soc-systolic-accelerator) as a
 memory-mapped peripheral at `0x3000_0000`, with a C driver and a program that compares it
 with Ascon in software on the same CPU.
 

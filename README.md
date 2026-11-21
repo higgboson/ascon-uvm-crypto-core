@@ -8,7 +8,7 @@ and **Ascon-CXOF128**, in one core with one datapath.
 It is checked three ways: against every official test vector, by a UVM environment that
 compares it with the Ascon team's own C code through DPI-C, and by planting bugs to prove
 the testbench catches them. It also runs as a memory-mapped peripheral of the
-[RV32IM SoC](https://github.com/higgboson/riscv-rv32im-soc), driven from C.
+[RV32IM SoC](https://github.com/higgboson/rv32im-soc-systolic-accelerator), driven from C.
 
 New to Ascon or to this code? Start with [`docs/learning_guide.md`](docs/learning_guide.md).
 
